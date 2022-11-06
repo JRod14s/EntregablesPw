@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Juego de memoria</title>
+</head>
+<body>
+    
+</body>
+</html>
+<div id="endGame" class="feedback">
+    <div class="modal">
+      <h2>¡BIEN JUGADO!</h2>
+  
+      <button id="levelUp" class="btnFeedback">
+        Siguiente nivel
+      </button>
+      <button class="btnFeedback reiniciar">
+        ¿Reiniciar?
+      </button>
+    </div>
+  </div>
+  <div id="gameOver" class="feedback">
+    <div class="modal">
+      <h2>¡FELICIDADES!</h2>
+      <p>¡Has terminado todos los niveles!</p>
+  
+      <button class="btnFeedback reiniciar">
+        ¿Reiniciar?
+      </button>
+    </div>
+  </div>
+  <div id="acabanMovimientos" class="feedback">
+    <div class="modal">
+      <h2>¡Se terminaron los movimientos!</h2>
+      <p>¡Oh nou! Se te han terminado el número máximo de movimientos</p>
+  
+      <button class="btnFeedback reiniciar">
+        ¿Reiniciar?
+      </button>
+    </div>
+  </div>
+  
+  <h1>Bienvenido al juego</h1>
+  <div class="botones">
+    <button class="myBtn" id="game1" onclick="iniciarJuego()">
+      <h4>Juego 1</h4>
+    </button>
+
+  </div>
+  <header>
+    <div class="timer">
+  
+      <div class="movimientos">
+        <h5>Movimientos</h5>
+        <span id="mov">00</span> /
+        <span id="movTotal">00</span>
+      </div>
+  
+      <div class="reloj">
+        <h5>Tiempo</h5>
+        <span id="minutos">00</span> :
+        <span id="segundos">00</span>
+      </div>
+  
+      <div class="reloj">
+        <h5>Nivel</h5>
+        <span id="nivel">01</span>
+      </div>
+  
+    </div>
+  </header>
+  <main>
+    <div id="mesa" class="mesa"></div>
+  
+  </main>
+  
+  <div class="cuadroTexto" id="tablaNumeros">
+    <script src="main.js"></script>
+  </div>

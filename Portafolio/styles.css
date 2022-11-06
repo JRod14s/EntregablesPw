@@ -1,0 +1,113 @@
+body {
+    background-image: url(/sand-g93c73805e_1280.jpg);
+    background-size: cover;
+}
+
+
+img {
+    width: 200px;
+    margin-left: 250%;
+    border-radius: 360px;
+    
+}
+
+.contenedor .nombre .foto img
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 65%;
+    margin-bottom: 20%;
+
+}
+.caja3 
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.caja3  section
+{
+    margin: 15px;
+}
+.caja3 img
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0%;
+    margin-bottom: 5%;
+}
+.caja4 
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.caja4  section
+{
+    margin: 15px;
+}
+.caja4 img
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0%;
+    margin-bottom: 5%;
+}
+.caja6 
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.caja6  section
+{
+    margin: 15px;
+}
+.caja6 img
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0%;
+    margin-bottom: 5%;
+}
+.caja6
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.caja6 section
+{
+    margin: 15px;
+}
+.caja6 img
+{
+    width: 60%;
+    margin-left: 210%;
+    max-width: 150px;
+}
+div{
+    border: 0px solid black;
+    padding: 12px;
+    width: 60%;
+    margin: 200 auto;
+}
+fieldset{
+    margin-bottom: 12px;
+}
+legend{
+    background-color: rgba(0, 0, 0, 0.253) ;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.Enca
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

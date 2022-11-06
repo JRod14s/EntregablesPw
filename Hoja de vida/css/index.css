@@ -1,0 +1,365 @@
+body
+{
+    margin:0; /* para que no haya espacios*/
+    padding: 0;
+    background: #e2e2e2; /* color del body */
+}
+
+.name  /* el punto es una clase */
+{
+    width: 100%; /* tamaño - ancho */
+    height: 300px;  /* tamaño de pixeles */
+    background: #78767b ; /* color */
+    transform: skewY(-7deg);
+}
+
+.name .content /* Se llaman las clases que lo contengan*/
+{
+    width: 50%;
+    height: 50%;
+    position: absolute; /* facilitar el movimiento de contenido dentro de la pagina*/
+    left: 25%;
+}
+/* background es para el fondo de las cajas
+y color es para el texto */
+.name .content .p-1
+{
+    color: #0F0F0F;
+    font-family: 'Alfa Slab One', cursive; /* Es la tipografia para el texto */
+    font-weight: bolder; /* negrilla de la letra*/
+    font-size: 48px; /* tamaño de fuente*/
+    transform: skewY(7deg);
+    margin-bottom: 0;
+}
+.name .content .p-2
+{
+    color: #0F0F0F;
+    font-family: 'Alfa Slab One', cursive; 
+    font-size: 28px;
+    transform: skewY(7deg);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.name .img
+{
+    position: absolute;
+    top: 28%;
+    right: 5%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%; /*Con el 100 el cuadrado se vuelve circular*/
+    transform: skewY(5deg);
+    overflow: hidden; /*Lo que sobra del cuadrado o imgagen se oculta*/
+
+}
+
+.name .img img  /* Para cuadrar la foto*/
+{
+    width: 180px;
+    height: 320px;
+}
+
+.info
+{
+    width: 90%;
+    height: auto; /* El auto se adapta a su contenido (altura) */
+    background: #78767b; 
+    margin: 8% auto; /*El primero es para altura y el segundo es anchura */
+    padding: 20px; /* Para el espaciado dentro de la caja*/
+    border-radius: 20px; /*Para el borde de los cuadros*/
+}
+
+.info .tituloSeccion
+{
+    color: #0F0F0F;
+    font-family: 'Alfa Slab One', cursive, sans-serif; 
+    font-size: xx-large;
+    text-align: center; /* Centrar el texto*/
+    font-weight: bolder; /* negrilla */
+    border-bottom: 4px #fffaf2 dashed; /* linea dentro del cuadro (tambien se usa solid)*/
+}
+
+.info .tituloInfo
+{
+    color: #0F0F0F;
+    font-family: 'Alfa Slab One', cursive, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline; /*Para que el texto se organice en linea */
+    margin-right: 20px;
+}
+
+.info .informacion
+{
+    color: #0F0F0F;
+    font-family: 'Alfa Slab One', cursive, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+}
+
+.info .Direccion
+{
+    color: #0F0F0F;
+    font-family: 'Alfa Slab One', cursive, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline; 
+    margin-right: 20px;
+}
+
+.info .Dir
+{
+    color: #0F0F0F;
+    font-family: 'Alfa Slab One', cursive, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+}
+.info .Telefono
+{
+    color: #0F0F0F;
+    font-family: 'Alfa Slab One', cursive, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline; 
+    margin-right: 20px;
+}
+
+.info .Tel
+{
+    color: #0F0F0F;
+    font-family: 'Alfa Slab One', cursive, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+}
+.info .Email
+{
+    color: #0F0F0F;
+    font-family: 'Alfa Slab One', cursive, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline; 
+    margin-right: 20px;
+}
+
+.info .Ema
+{
+    color: #0F0F0F;
+    font-family: 'Alfa Slab One', cursive, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+}
+.info .Cedula
+{
+    color: #0F0F0F;
+    font-family: 'Alfa Slab One', cursive, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline; 
+    margin-right: 20px;
+}
+
+.info .Cc
+{
+    color: #0F0F0F;
+    font-family: 'Alfa Slab One', cursive, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+}
+.info2
+{
+    width: 90%;
+    height: auto; /* El auto se adapta a su contenido (altura) */
+    background: #78767b; 
+    margin: 8% auto; /*El primero es para altura y el segundo es anchura */
+    padding: 20px; /* Para el espaciado dentro de la caja*/
+    border-radius: 20px; /*Para el borde de los cuadros*/
+}
+.info2 .titulo2
+{
+    color: #0F0F0F;
+    font-family: 'Alfa Slab One', cursive, sans-serif; 
+    font-size: xx-large;
+    text-align: center; /* Centrar el texto*/
+    font-weight: bolder; /* negrilla */
+    border-bottom: 4px #fffaf2 dashed; /* linea dentro del cuadro (tambien se usa solid)*/
+}
+
+.info2 .Bachiller
+{
+    color: #0F0F0F;
+    font-family: 'Alfa Slab One', cursive, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+}
+.info2 .Bac
+{
+    color: #0F0F0F;
+    font-family: 'Alfa Slab One', cursive, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+}
+.info2 .Uni
+{
+    color: #0F0F0F;
+    font-family: 'Alfa Slab One', cursive, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+}
+.info2 .U
+{
+    color: #0F0F0F;
+    font-family: 'Alfa Slab One', cursive, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+}
+.info3
+{
+    width: 90%;
+    height: auto; /* El auto se adapta a su contenido (altura) */
+    background: #78767b; 
+    margin: 8% auto; /*El primero es para altura y el segundo es anchura */
+    padding: 20px; /* Para el espaciado dentro de la caja*/
+    border-radius: 20px; /*Para el borde de los cuadros*/
+}
+.info3 .titulo3
+{
+    color: #0F0F0F;
+    font-family: 'Alfa Slab One', cursive, sans-serif; 
+    font-size: xx-large;
+    text-align: center; /* Centrar el texto*/
+    font-weight: bolder; /* negrilla */
+    border-bottom: 4px #fffaf2 dashed; /* linea dentro del cuadro (tambien se usa solid)*/
+}
+
+.info3 .Habilidades
+{
+    color: #0F0F0F;
+    font-family: 'Alfa Slab One', cursive, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+}
+.info3 .Hab
+{
+    color: #0F0F0F;
+    font-family: 'Alfa Slab One', cursive, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+}
+.info3 .Pasatiempos
+{
+    color: #0F0F0F;
+    font-family: 'Alfa Slab One', cursive, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline; 
+    margin-right: 20px;
+}
+.info3 .Pa
+{
+    color: #0F0F0F;
+    font-family: 'Alfa Slab One', cursive, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline; 
+    margin-right: 20px;
+}
+.info4
+{
+    width: 90%;
+    height: auto; /* El auto se adapta a su contenido (altura) */
+    background: #78767b; 
+    margin: 8% auto; /*El primero es para altura y el segundo es anchura */
+    padding: 20px; /* Para el espaciado dentro de la caja*/
+    border-radius: 20px; /*Para el borde de los cuadros*/
+}
+.info4 .titulo4
+{
+    color: #0F0F0F;
+    font-family: 'Alfa Slab One', cursive, sans-serif; 
+    font-size: xx-large;
+    text-align: center; /* Centrar el texto*/
+    font-weight: bolder; /* negrilla */
+    border-bottom: 4px #fffaf2 dashed; /* linea dentro del cuadro (tambien se usa solid)*/
+}
+.info4 .Idiomas
+{
+    color: #0F0F0F;
+    font-family: 'Alfa Slab One', cursive, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+}
+
+.info4 .Id
+{
+    color: #0F0F0F;
+    font-family: 'Alfa Slab One', cursive, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+}
+.info4 .Ingles
+{
+    color: #0F0F0F;
+    font-family: 'Alfa Slab One', cursive, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+}
+.info4 .In
+{
+    color: #0F0F0F;
+    font-family: 'Alfa Slab One', cursive, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+}
+.final
+{
+    width: 100%;
+    height: auto; /* El auto se adapta a su contenido (altura) */
+    text-align: center;
+    background: #78767b;
+    margin-bottom: 2% auto; /*El primero es para altura y el segundo es anchura */
+    padding: 20px; /* Para el espaciado dentro de la caja*/ 
+}
+.final .fin
+{
+    color: #0F0F0F;
+    font-family: 'Alfa Slab One', cursive, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+}
+.final .f
+{
+    color: #0F0F0F;
+    font-family: 'Alfa Slab One', cursive, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+}
+.info span
+{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    background: #fffaf2;
+    color: #0F0F0F;
+    font-family: 'Montserrat',sans-serif;
+    border-radius: 5px;
+}
