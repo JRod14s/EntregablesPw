@@ -1,0 +1,41 @@
+.caja3 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.caja3 section {
+    margin: 15px;
+}
+
+
+div {
+    border: 1px solid black;
+    padding: 12px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+fieldset {
+    margin-bottom: 12px;
+}
+
+
+nav ul {
+    background-color: rgba(12, 6, 19, 0);
+    width: 95%;
+    list-style-type: none;
+    text-align: center;
+
+}
+
+legend {
+    background-color: hwb(0 0% 100% / 0.253);
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+body {
+    background-image: url(/sand-g93c73805e_1280.jpg);
+    background-size: 120%;
+}
